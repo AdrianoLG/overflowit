@@ -1,0 +1,80 @@
+body {
+   font-family: 'Coda', cursive;
+}
+h1, h2 {
+   font-weight: normal;
+}
+h1 {
+   font-size: 1em;
+}
+h2 {
+   font-size: 1.125em;
+}
+button {
+   background: transparent;
+   border: 3px solid #581717;
+   color: #581717;
+   font-weight: bold;
+   font-size: 1.25em;
+   margin: .5em 0;
+   padding: .15em .5em;
+   width: 100%;
+}
+button:hover {
+   background: #f3d0d0;
+   cursor: pointer;
+   transition: .5s background;
+}
+ul {
+   list-style: none;
+   margin-bottom: 1em;
+   padding-left: .25em;
+}
+ul li {
+   align-items: center;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   padding: .5em .25em;
+}
+ul li:hover {
+   background: #f3d0d0;
+}
+ul li p {
+   color: #581717;
+   margin: 0;
+}
+ul li a, #submit {
+   background: transparent;
+   border: 1px solid #581717;
+   box-sizing: border-box;
+   color: #581717;
+   line-height: 1;
+   padding: .15em .5em;
+   text-decoration: none;
+}
+ul li a:hover, #submit:hover {
+   background: #581717;
+   color: white;
+   transition: .5s all;
+}
+input {
+   border: none;
+   border-bottom: 1px solid #f3d0d0;
+   box-sizing: border-box;
+   color: #581717;
+   margin-bottom: 1em;
+   padding: .15em .25em;
+}
+input:focus {
+   border-bottom: 1px solid #581717;
+   outline: none;
+   transition: .5s border-bottom;
+}
+div div {
+   display: flex;
+   justify-content: flex-end;
+}
+#submit {
+   padding: .25em 1em;
+}
