@@ -14,7 +14,7 @@ window.onload = function() {
 				],
 				list => {
 					if (list) {
-						var tempList = Object.values(list)[0];
+						var tempList = Object.values(list)[0] || [];
 						tempList.push({ name: name, url: url });
 						chrome.storage.sync.set({ list: tempList }, () => {
                      document.getElementById('name').value = '';
